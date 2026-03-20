@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 
 from openai import OpenAI
-client = OpenAI(api_key="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")
+client = OpenAI(api_key)
 
 def generate_ai_insight(prompt_text):
     try:
