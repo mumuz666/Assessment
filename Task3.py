@@ -5,9 +5,10 @@ import plotly.express as px
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
-
+import os
 from openai import OpenAI
-client = OpenAI(api_key)
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def generate_ai_insight(prompt_text):
     try:
