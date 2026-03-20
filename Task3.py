@@ -30,7 +30,7 @@ st.title("GenAI-Enhanced Real Estate Lease-Up Dashboard")
 st.markdown("Interactive dashboard based on Task 1 feature engineering results.")
 
 # Load data
-df = pd.read_csv(r"C:\Users\联想\Desktop\笔试\Task3\final_features.csv")
+df = pd.read_csv("final_features.csv")
 
 # Convert date columns to datetime
 if "FirstRecordedMonth" in df.columns:
