@@ -27,6 +27,7 @@ st.set_page_config(page_title="Real Estate Lease-Up Dashboard", layout="wide")
 
 # Title and description
 st.title("GenAI-Enhanced Real Estate Lease-Up Dashboard")
+st.markdown("**By Muhong Zhang**")
 st.markdown("Interactive dashboard based on Task 1 feature engineering results.")
 
 # Load data
